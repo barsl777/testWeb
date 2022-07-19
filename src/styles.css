@@ -1,0 +1,43 @@
+import "~slick-carousel/slick/slick.css"; 
+import "~slick-carousel/slick/slick-theme.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.login, .signup, .about, .users, .slider, .pageNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  padding-top: 25px;
+}
+
+nav li {
+padding-right: 25px;
+list-style-type: none;
+display: inline-block;
+}
+
+.item, .text {
+display: flex;
+justify-content: flex-end;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+a, .text, .btn, table {
+  margin-top: 25px;
+}
+
+a {
+  cursor: pointer;
+}
